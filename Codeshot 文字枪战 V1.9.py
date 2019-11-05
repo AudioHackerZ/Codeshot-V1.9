@@ -72,7 +72,7 @@ while dicition == yes:
 
                 AIdicition = ("开枪")
 
-            if dicitionNumber2 == 2 and AIammo < 0:
+            if dicitionNumber2 == 2 and AIammo <= 0:
 
                 AIammo = AIammo + 1
                 AIdicition = ("上子弹")
